@@ -1,6 +1,6 @@
 {
   "name": "react-value-slider",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "make your slider value change by your input array sequence",
   "main": "lib/",
   "scripts": {

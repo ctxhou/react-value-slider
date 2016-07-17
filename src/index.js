@@ -24,17 +24,16 @@ export default class ValueSlider extends Component {
   }
 
   render() {
-    const {data} = this.props;
+    const {data, style} = this.props;
     const {value} = this.state;
     return (
-      <div>
-        <input type="range" 
-               name="points" 
-               min="0" 
-               max={data.length - 1} 
-               value={value}
-               onChange={this.onChange}/>
-      </div>
+      <input type="range" 
+             name="points" 
+             min="0" 
+             max={data.length - 1} 
+             value={value}
+             style={style}
+             onChange={this.onChange}/>
     )
   }
 }
